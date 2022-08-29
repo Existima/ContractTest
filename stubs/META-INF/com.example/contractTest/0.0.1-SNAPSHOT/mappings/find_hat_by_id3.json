@@ -1,0 +1,12 @@
+{
+  "id" : "cc3c193b-a45e-42b6-b826-7f8a7961b0db",
+  "request" : {
+    "url" : "/hat/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "cc3c193b-a45e-42b6-b826-7f8a7961b0db"
+}

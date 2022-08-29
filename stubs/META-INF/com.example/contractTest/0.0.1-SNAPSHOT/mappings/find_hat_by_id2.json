@@ -1,0 +1,16 @@
+{
+  "id" : "a445d5f6-479a-4ebc-afff-834e601685a4",
+  "request" : {
+    "url" : "/hat/2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"id\":2,\"name\":\"Test Hat 2\",\"color\":\"blue\",\"price\":12}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "a445d5f6-479a-4ebc-afff-834e601685a4"
+}
